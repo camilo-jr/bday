@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Happy Birthday</title>
+	<style>
+		body {
+			margin: 0;
+			background: #020202;
+			cursor: crosshair;
+		}
+		canvas{display:block}
+		h1 {
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-family: "Source Sans Pro";
+			font-size: 5em;
+			font-weight: 900;
+			-webkit-user-select: none;
+			user-select: none;
+		}
+		@media  and(margin: 400px) {
+			h1{
+				position: absolute;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: #fff;
+				font-family: "Source Sans Pro";
+				font-size: 5em;
+				font-weight: 900;
+				-webkit-user-select: none;
+				user-select: none;
+				font-size: 12px !important;
+			}
+		}
+	</style>
+	<body>
+		<audio src="audio/Happy Birthday.mp3" autoplay=""></audio>
+		<audio src="audio/fireworks.mp3" autoplay=""></audio>
+		<h1>Happy Birthday</h1>
+		<canvas id="birthday"></canvas>
+		<script src="js/exit.js">
+
+		</script>
+	</body>
+	</html>
